@@ -1,0 +1,83 @@
+a:link {
+    color:blue;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: white;
+    color: black;
+    font-family: unset;
+}
+
+a:visited {
+    color:rgb(128, 82, 128);
+}
+
+ul {
+    size: large;
+}
+
+.align {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.tallalign {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+}
+
+.videoalign {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}
+
+.normalize {
+    text-align: center;
+}
+
+.common {
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid black;
+    text-align: center;
+}
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 64px;
+    padding-right: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    height: 85px;
+    left: 5px;
+    right: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: #555555;
+    background-color: #ADD8E6;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+    font-size: large;
+}
